@@ -1,15 +1,15 @@
 # Job Portal Website
 
-A simple Job Portal web application where companies can post jobs and students or job seekers can apply for them.
+A simple and responsive **Job Portal web application** where companies can post job offers and students or job seekers can apply for them.
 
 ## 🚀 Features
 
-- User login and registration (Admin, Company, Student)
-- Companies can post and manage job offers
+- User authentication (Admin, Company, Student)
+- Companies can post and manage job listings
 - Students can browse and apply for jobs
 - Admin can manage users and job posts
-- Dashboard for each role
-- Simple and clean user interface
+- Role-based dashboards
+- Clean and responsive design
 
 ## 🛠️ Technologies Used
 
@@ -18,10 +18,35 @@ A simple Job Portal web application where companies can post jobs and students o
 - **Database:** MySQL  
 - **Styling:** Bootstrap / TailwindCSS
 
-## ⚙️ Installation
+## 👥 Default Login Accounts
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/ikram-Sakura/Job-portal-website.git
+**Admin**  
+Email: admin@example.com  
+Password: password  
 
-Made with ❤️ by Ikram Rose
+**Company**  
+Email: company@example.com  
+Password: password  
+
+**Student**  
+Email: student@example.com  
+Password: password  
+
+## 📚 Project Structure
+Job-portal-website/
+│
+├── backend/ # Laravel backend
+├── frontend/ # React frontend
+└── README.md
+
+
+## 💡 Future Improvements
+
+- Email notifications  
+- Profile management and resume upload  
+- Advanced analytics for admin dashboard  
+- Dark mode and multilingual support  
+
+---
+
+Made with ❤️ by **Ikram**
